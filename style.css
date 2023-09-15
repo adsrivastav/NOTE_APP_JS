@@ -1,0 +1,254 @@
+body {
+    
+    background-color: grey; /* Set your desired background color here */
+    margin: 0;
+    padding: 0;
+}
+
+.Main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+
+.Main img {
+    width: 50px;
+    height: 50px;
+    margin-left: 10px;
+}
+
+.nav-item {
+    font-size: 16px;
+    cursor: pointer;
+    margin: 0 15px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+
+
+
+.SignInButton {
+    background-color: #2d3436; /* Set the background color to match the navbar */
+    color: white; /* Set the text color to white */
+    padding: 10px 20px; /* Adjust padding as needed */
+    border-radius: 5px; /* Add rounded corners */
+    transition: background-color 0.3s ease; /* Add a smooth color transition on hover */
+}
+
+.SignInButton a {
+    text-decoration: none; /* Remove underlines from the anchor text */
+    color: inherit; /* Inherit the text color from the parent */
+}
+
+.SignInButton:hover {
+    background-color: #0097a7; /* Change background color on hover */
+}
+
+
+
+
+
+
+
+.app-name {
+    background-color: #00bcd4; /* Background color for the app name */
+    color: white; /* Text color for the app name */
+    padding: 5px 10px; /* Adjust padding to your preference */
+    border-radius: 5px;
+    cursor: pointer; /* Add rounded corners */
+    
+}
+
+#item {
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 30px;
+    transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.SearchBar {
+    display: flex;
+    align-items: center;
+    background-color: #fff;
+    padding: 5px 10px;
+    border-radius: 25px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.SearchBar input[type="text"] {
+    padding: 8px;
+    border: none;
+    border-radius: 20px;
+    margin-right: 10px;
+    width: 200px;
+}
+
+.nav-item:hover,
+#item:hover {
+    color: #00bcd4;
+    transform: scale(1.05);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f5f5f5;
+}
+.Login {
+    padding: 20px;
+    border: 2px solid #ccc;
+    border-radius: 10px; /* Increased border radius for a more rounded look */
+    width: 300px;
+    max-width: 80%; /* Added max-width for responsiveness */
+    background-color: #fff;
+    text-align: center;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+input[required] {
+    border: 1px solid rgb(102, 81, 81);
+}
+
+#upper {
+    margin-bottom: 20px;
+    font-size: 24px; /* Increased font size for the title */
+    font-weight: bold;
+    color: #333; /* Darkened the title color */
+}
+
+#mid {
+    margin-top: 20px;
+    margin-left: 0; /* Removed margin-left for centered alignment */
+}
+
+#user,
+#pass {
+    border-radius: 8px;
+    width: 80%; /* Adjusted button width to 100% for responsiveness */
+    padding: 10px;/* Increased input height for better input area */
+    border: 1px solid #ccc; /* Added a border to inputs */
+    padding: 10px;
+    margin-bottom: 15px; /* Added margin-bottom for input spacing */
+}
+
+button {
+    margin-top: 20px;
+    width: 100%; /* Adjusted button width to 100% for responsiveness */
+    padding: 10px;
+    background-color: #0097a7; /* Button background color */
+    border: none;
+    border-radius: 5px;
+    color: white; /* Button text color */
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Smooth button hover transition */
+}
+
+button:hover {
+    background-color: #00828e; /* Button background color on hover */
+}
+#lower {
+    font-family: Arial, sans-serif;
+    color: #555; /* Darkened the text color */
+}
+/* Style for the "Sign In" button below the login form */
+/* Style for the "Sign In" button below the login form */
+.SignInButtonBelow {
+    text-align: center;
+    margin-top: 20px; 
+    padding: 10px 20px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;/* Adjust the margin as needed */
+}
+
+.sign-in-button {
+    text-decoration: none;
+    background-color: #ff5733; /* Custom color for the "Sign In" button */
+    color: white; /* Button text color */
+    padding: 5px 10px; /* Padding for the button */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease; /* Add a transition effect */
+}
+
+.sign-in-button:hover {
+    background-color: #ff3d00; /* Button background color on hover */
+}
+
+
+/* Modified navigation bar styles */
+.MainNav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    padding: 10px 20px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.NavLinks {
+    display: flex;
+    align-items: center;
+}
+
+.NavLinks a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 20px;
+}
+
+.AddNoteButton {
+    background-color: #0097a7;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.AddNoteButton i {
+    margin-right: 5px;
+}
+
+.AddNoteButton:hover {
+    background-color: #00828e;
+}
+/* CSS for the pop-up */
+.popup {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: 9999;
+}
+
+.popup-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    text-align: center;
+}
+
+.close-popup {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
